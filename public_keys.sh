@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+
+mkdir ~/.ssh
+echo "" >> ~/.ssh/authorized_keys 
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+gk4IF4gNvhdWKH5mab4sdZobX9KxWNDEiwxMFZje4+SF+2UQh+/J75wlnY8Ej9+vGvK3b7w8bcBo4cTqT/fZey4SQ+sXFJfg8SEEJjDJX4o1yyuv9xjdgcJ6wH0buS2fP0Wz6C5F0ZLcSIix5cuMXdE4XfKLft3RJwfHQAlTl3wNA6TRddAWnL6F6fFV0UC/ioBrMkxrgjh3UbUKaXjDl5NIg21JxRojFa9W8hX5wMzrCWATEx6wlerrLYCWDTnJcMA/hN+2NHxxDxqAhxR4jli5z0artb8Jg/FW436KzK6aWI9LAjxroxtLDBHo3QowvYdwxLNjiHWc5oSXAvdFXi2CXF6JTSG825WhbLeW6pAk7SiXc8tgrrdMZbngpAV6r2UPvkxTEcGxMx7d5BXR2UtJOWHPN7InnmUXaJqqo9GopkeV61kvwB3841fKoR/2NxH9XRfTUfS+Y7YLwjFlFKhPRkq7QnLgUw9XNPnYKlxxbBat3+FuMLaIGNDfF3c= peter@CoolComputer" >> ~/.ssh/authorized_keys 
+
